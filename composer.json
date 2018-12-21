@@ -1,0 +1,21 @@
+{
+  "name": "borsch/shopify",
+  "description": "An implementation of Shopify REST API for PHP.",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexandre DEBUSSCHERE",
+      "email": "alexandre@common-services.com"
+    }
+  ],
+  "require": {
+    "ext-json": "*",
+    "guzzlehttp/guzzle": "6.3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Borsch\\": "src/"
+    }
+  }
+}
