@@ -164,7 +164,7 @@ class BaseType
     /**
      * @param int|null $id
      * @param array|null $query
-     * @return $this|array|bool
+     * @return $this|$this[]|bool
      */
     public function get($id = null, array $query = null)
     {

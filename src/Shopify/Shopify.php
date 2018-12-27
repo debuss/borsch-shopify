@@ -152,4 +152,12 @@ class Shopify
     {
         return new Shop(self::$store, self::$access_token);
     }
+
+    /**
+     * @return ScriptTag
+     */
+    public static function scriptTag(): ScriptTag
+    {
+        return new ScriptTag(self::$store, self::$access_token);
+    }
 }
